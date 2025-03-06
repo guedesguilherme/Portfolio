@@ -1,27 +1,34 @@
 import React from 'react'
 import Headline from '../Components/Texts/Headline'
-import PrimaryBtn from '../Components/Buttons/primaryBtn'
+import PrimaryBtn from '../Components/Buttons/PrimaryBtn'
 import SecondaryBtn from '../Components/Buttons/SecondaryBtn'
 
 const Home = () => {
   return (
-    <div id='home' className='bg-darkGray w-full flex pt-[200px] pb-[200px] items-center justify-around'>
-      <div className='flex flex-col bg-darkGray gap-20 items-start'>
-        <div>
-        <Headline text="Software" className="text-smoke"/> 
-        <Headline text="Developer" className="text-primaryPurple"/>
+    <section id='home' className='bg-darkGray w-full py-[200px] flex items-center justify-center'>
+      
+      <div className='max-w-[80%] w-full mx-auto flex flex-col lg:flex-row items-center gap-12'>
+        
+        {/* Texto */}
+        <div className='flex-1 flex flex-col gap-8 items-start'>
+          <div>
+            <Headline text="Software" className="text-smoke"/> 
+            <Headline text="Developer" className="text-primaryPurple"/>
+          </div>
+
+          <div className='flex flex-wrap gap-x-4 gap-y-3'>
+            <PrimaryBtn text="Entre em contato"/>
+            <SecondaryBtn text="Download CV"/>
+          </div>  
         </div>
 
-        <div className='flex gap-6'>
-        <PrimaryBtn text="Entre em contato"/>
-        <SecondaryBtn text="Download CV"/>
-        </div>  
-      </div>
+        {/* Imagem */}
+        <div className="flex-1 flex justify-center">
+          <img src="../public/img/website.svg" alt="" className="w-full max-w-[500px] h-auto"/>
+        </div>
 
-      <div className="flex justify-start w-full max-w-[500px]">
-        <img src="../public/img/website.svg" alt="" className="w-full h-auto"/>
       </div>
-    </div>
+    </section>
   )
 }
 

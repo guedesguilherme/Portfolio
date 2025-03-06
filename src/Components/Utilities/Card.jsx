@@ -1,20 +1,24 @@
 import React from 'react'
 
-const Card = ({ imageUrl, altText, title, description }) => {
+const Card = ({ imageUrl, altText, title, description, link }) => {
   return (
-    <div className="flex flex-col items-center w-[300px] h-[530px] bg-darkGray rounded-3xl">
+    <a href={link} target="_blank" rel="noopener noreferrer" className="cursor-pointer flex flex-col items-center w-[300px] h-[530px] bg-mediumGray rounded-3xl p-6 shadow-mg shadow-smoke hover:shadow-xl hover:shadow-primaryPurple transition-shadow duration-300">
+      
       <img
         src={imageUrl}
         alt={altText}
-        className="p-5 w-[250] h-[250] object-cover rounded-x1" 
+        className="w-[250px] h-[250px] object-cover rounded-xl mb-4" // Tamanho fixo e margem inferior
       />
-      <div className="p-4">
-        <div>
-            <p className="text-3xl font-bold text-smoke">{title}</p>
-        </div>
-        <p className="text-smoke mt-3 font-regular">{description}</p>
+      
+      <div className="text-left w-full">
+        {/* Título com padding igual e distância de 16px da imagem */}
+        <p className="text-2xl font-bold text-smoke font-primary mb-4">{title}</p>
+
+        {/* Descrição com padding igual e distância de 16px do título */}
+        <p className="text-sm sm:text-base md:text-lg text-smoke font-primary">{description}</p>
       </div>
-    </div>
+
+    </a>
   )
 }
 
