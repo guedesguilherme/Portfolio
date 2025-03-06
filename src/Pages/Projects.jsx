@@ -4,7 +4,7 @@ import Card from '../Components/Utilities/Card'
 
 const Projects = () => {
   return (
-    <section id='about' className='bg-darkGray w-full py-[200px] flex items-center justify-center'>
+    <section id='projects' className='bg-darkGray w-full py-[200px] flex items-center justify-center'>
       
       <div className='max-w-[80%] w-full mx-auto flex flex-col lg:flex-row items-center gap-12'>
         
