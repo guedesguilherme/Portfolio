@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center max-w-6xl mx-auto">
         {/* Logo */}
         <button onClick={() => scrollToSection("home")} className="w-[50px]">
-          <img src="../public/img/logo.svg" alt="Dev.Guilherme" className="cursor-pointer" />
+          <img src="/img/logo.svg" alt="Dev.Guilherme" className="cursor-pointer" />
         </button>
 
         {/* Menu Desktop */}
