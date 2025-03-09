@@ -7,8 +7,9 @@ const ContactLink = ({ url, text, image, altText, className }) => {
       target="_blank" 
       rel="noopener noreferrer" 
       className={`flex items-center gap-4 font-primary text-smoke font-bold 
-                  text-2xl sm:text-3xl md:text-4xl lg:text-5xl 
-                  hover:text-primaryPurple transition-all duration-200 ${className}`}
+                  sm:text-2xl md:text-3xl lg:text-4xl 
+                  hover:text-primaryPurple transition-all duration-200 
+                  break-words ${className}`} // Adicionado break-words
     >
       {image && (
         <img 
@@ -17,7 +18,7 @@ const ContactLink = ({ url, text, image, altText, className }) => {
           className="w-6 sm:w-8 md:w-10 lg:w-12 h-auto object-contain"
         />
       )}
-      <span>{text}</span>
+      <span className="break-words">{text}</span> {/* Adicionado break-words */}
     </a>
   );
 };

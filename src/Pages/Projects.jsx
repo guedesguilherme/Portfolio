@@ -15,9 +15,9 @@ const Projects = () => {
             </div>
 
             <div className='flex flex-wrap gap-x-16 gap-y-12'>
-                <Card imageUrl=".././public/img/logo.svg" altText="Alternative Text" title="Projeto 01" description="Descrição do Projeto 01" link="https://www.google.com.br"/>
-                <Card imageUrl=".././public/img/logo.svg" altText="Alternative Text" title="Projeto 01" description="Descrição do Projeto 01" link="https://www.google.com.br"/>
-                <Card imageUrl=".././public/img/logo.svg" altText="Alternative Text" title="Projeto 01" description="Descrição do Projeto 01" link="https://www.google.com.br"/>
+                <Card imageUrl="/img/logo.svg" altText="Alternative Text" title="Projeto 01" description="Descrição do Projeto 01" link="https://www.google.com.br"/>
+                <Card imageUrl="/img/logo.svg" altText="Alternative Text" title="Projeto 01" description="Descrição do Projeto 01" link="https://www.google.com.br"/>
+                <Card imageUrl="/img/logo.svg" altText="Alternative Text" title="Projeto 01" description="Descrição do Projeto 01" link="https://www.google.com.br"/>
             </div>
         </div>
       </div>

@@ -17,7 +17,8 @@ const About = () => {
             <SecondaryHeadline text="Mim" className="text-primaryPurple" />
           </div>
 
-          <Paragraph text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis..."
+          <Paragraph 
+          text="Desenvolvedor com experiência em React, Node.js, MySQL e MongoDB, especializado em criar soluções web eficientes e escaláveis. Focado em entregar projetos de alta qualidade, utilizando boas práticas de desenvolvimento e integração de APIs."
           className="opacity-75 text-smoke"/>
 
           <div className='mt-20 flex flex-col gap-12'>
@@ -50,7 +51,7 @@ const About = () => {
 
         {/* Imagem */}
         <div className="flex-1 flex justify-center">
-          <img src="../public/img/presentation.svg" alt="" className="w-full max-w-[500px] h-auto"/>
+          <img src="/img/presentation.svg" alt="" className="w-full max-w-[500px] h-auto"/>
         </div>
 
       </div>
