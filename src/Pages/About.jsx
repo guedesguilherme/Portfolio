@@ -29,9 +29,11 @@ const About = () => {
                 <SubTitle text="Skills" className="text-primaryPurple" />
               </div>
               <div className='mt-8 flex flex-wrap gap-x-4 gap-y-3'>
-                <Ballons text="NodeJS"/> <Ballons text="ReactJS"/> <Ballons text="MySQL"/>
-                <Ballons text="MongoDB"/> <Ballons text="API RESTful"/> <Ballons text="HTML & CSS"/>
-                <Ballons text="Git & Github"/> <Ballons text="Project Management"/>
+                <Ballons text="NodeJS"/> <Ballons text="ReactJS"/> <Ballons text="HTML & CSS"/> 
+                <Ballons text="Tailwind"/> <Ballons text="MySQL"/>
+                <Ballons text="MongoDB"/> <Ballons text="API RESTful"/> 
+                <Ballons text="Git & Github"/> <Ballons text="CI/CD"/> 
+                <Ballons text="Project Management"/> 
               </div>
             </div>   
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import SecondaryHeadline from '../Components/Texts/SecondaryHeadline';
 import ContactLink from '../Components/Texts/ContactLink';
-import PrimaryBtn from '../Components/Buttons/PrimaryBtn';
+import SecondaryBtn from '../Components/Buttons/SecondaryBtn';
 
 const Contacts = () => {
   return (
@@ -37,7 +37,7 @@ const Contacts = () => {
           </div>
 
           <div className="mt-8">
-            <PrimaryBtn text="Download CV"/>
+            <SecondaryBtn text="Download CV" downloadUrl="/docs/guilherme-guedes-cv.pdf"/>
           </div>
         </div>
 
