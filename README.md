@@ -16,7 +16,7 @@ Portfólio pessoal desenvolvido em React e Tailwind CSS para exibir habilidades,
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-portfolio.git
+   git clone https://github.com/guedesguilherme/Portfolio.git
    cd seu-portfolio
    ```
 
@@ -40,7 +40,7 @@ Portfólio pessoal desenvolvido em React e Tailwind CSS para exibir habilidades,
 ## Contato
 
 - **GitHub**: [guedesguilherme](https://github.com/guedesguilherme)
-- **LinkedIn**: [Guilherme Guedes](https://linkedin.com/in/guedesguilherme)
+- **LinkedIn**: [Guilherme Guedes](https://www.linkedin.com/in/guilherme-ryam-guedes/)
 - **E-mail**: gryan.guedes@gmail.com+
 
 --- 
