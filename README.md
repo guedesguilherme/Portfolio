@@ -1,46 +1,37 @@
-# Portfólio Pessoal
+# Portfolio
 
-Portfólio pessoal desenvolvido em React e Tailwind CSS para exibir habilidades, projetos e informações de contato.
+Personal portfolio built to reflect my positioning as an AI Engineer and Fullstack Developer. The site covers selected projects, a professional background section with real production metrics, a writing placeholder for future articles, and contact information.
 
----
+## Stack
 
-## Tecnologias
+React 19, Vite, Framer Motion, Lenis, Tailwind CSS v4
 
-- **React**
-- **Tailwind CSS**
-- **Vite**
+## Features
 
----
+- Ferrofluid particle field background with cursor interaction (Canvas 2D)
+- Scroll-driven basketball easter egg that traverses the projects section
+- Dark and light theme with persistent preference via localStorage
+- Multilingual: Portuguese, English, and Spanish
+- Bottom pill navigation with scroll-spy active state
+- Typing effect cycling through positioning phrases
+- Animated editorial project strips, metric counters, and writing placeholders
 
-## Como Instalar
+## Setup
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/guedesguilherme/Portfolio.git
-   cd seu-portfolio
-   ```
+Install dependencies:
 
-2. Instale as dependências:
-   ```bash
-   npm install
-   ```
+    npm install
 
-3. Execute o projeto:
-   ```bash
-   npm run dev
-   ```
+Start the development server:
 
-4. Acesse no navegador:
-   ```
-   http://localhost:{porta}
-   ```
+    npm run dev
 
---- 
+Build for production:
 
-## Contato
+    npm run build
 
-- **GitHub**: [guedesguilherme](https://github.com/guedesguilherme)
-- **LinkedIn**: [Guilherme Guedes](https://www.linkedin.com/in/guilherme-ryam-guedes/)
-- **E-mail**: gryan.guedes@gmail.com+
+## Contact
 
---- 
+GitHub: https://github.com/guedesguilherme
+LinkedIn: https://www.linkedin.com/in/guilherme-ryam-guedes/
+Email: gryan.guedes@gmail.com
